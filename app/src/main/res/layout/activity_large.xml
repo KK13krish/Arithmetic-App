@@ -1,0 +1,55 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="25px"
+    android:gravity="center"
+    android:background="#DBD5A7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 1"
+        android:textSize="17dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number1"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:id="@+id/num1"
+        android:background="#CAC27D"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 2"
+        android:textColor="#000000"
+        android:textSize="17dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number2"
+        android:textColor="#000000"
+        android:id="@+id/num2"
+        android:background="#CAC27D"
+        android:inputType="number" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20px"
+        android:text="FIND LARGEST"
+        android:textStyle="bold"
+        android:id="@+id/largest"
+        android:background="#F8F2F2"
+        android:textColor="#000000"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RETURN TO MENU"
+        android:id="@+id/returns"
+        android:textStyle="bold"
+        android:layout_margin="20px"
+        android:background="#F8F2F2"
+        android:textColor="#000000"/>
+</LinearLayout>
